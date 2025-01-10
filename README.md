@@ -38,7 +38,7 @@ pomodoro-timer
 
 1. 克隆项目到本地：
    ```
-   git clone https://github.com/your-username/pomodoro-timer.git
+   git clone https://github.com/Charles810975/pomodoro-timer.git
    ```
 
 2. 进入项目目录：
