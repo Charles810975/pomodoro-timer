@@ -11,3 +11,51 @@
 - **管理员功能**：管理员可以管理用户、自习室和许愿墙的内容。
 
 ## 项目结构
+pomodoro-timer
+├── admin.html
+├── assets
+│   ├── 1.png
+│   └── 2.png
+├── index.html
+├── README.md
+├── scripts
+│   ├── admin.js
+│   └── main.js
+└── styles
+    ├── admin.css
+    └── main.css
+
+
+## 依赖
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Bootstrap
+- Chart.js
+
+## 使用说明
+
+1. 克隆项目到本地：
+   ```
+   git clone https://github.com/your-username/pomodoro-timer.git
+   ```
+
+2. 进入项目目录：
+   ```
+   cd pomodoro-timer
+   ```
+
+3. 安装依赖：
+   ```
+   npm install
+   ```
+
+4. 启动开发服务器：
+   ```
+   npm start
+   ```
+
+5. 打开浏览器，即可使用番茄钟计时器。
+
+## 贡献
