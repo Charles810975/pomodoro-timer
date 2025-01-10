@@ -1,0 +1,156 @@
+.timer-container {
+    min-height: 100vh;
+    background-color: #c45353;
+    transition: background-color 0.5s;
+}
+.timer-display {
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+.mode-btn {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.mode-btn.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 导航栏样式 */
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.navbar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.user-menu {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    background: transparent;
+}
+
+.user-menu:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* 登录模态框样式 */
+#loginModal .modal-content {
+    background-color: #fff;
+    color: #333;
+}
+
+#loginModal .nav-pills .nav-link {
+    color: #666;
+    background-color:  turquoise;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+}
+
+#loginModal .nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #ba4949;
+    border-color: #ba4949;
+}
+
+#loginModal .form-label {
+    color: #333;
+    font-weight: 500;
+}
+
+#loginModal .btn-primary {
+    background-color: #ba4949;
+    border-color: #ba4949;
+}
+
+#loginModal .btn-primary:hover {
+    background-color: #a13e3e;
+    border-color: #a13e3e;
+}
+
+#loginModal .form-text {
+    color: #666;
+}
+
+#loginModal .alert {
+    margin-bottom: 1rem;
+}
+
+/* 导航栏用户按钮样式 */
+.user-menu {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s;
+}
+
+.user-menu:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.room-view {
+    padding-top: 56px; /* 为固定导航栏留出空间 */
+}
+.room-view .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* 弹幕样式 */
+.wish-bullet {
+    position: absolute;
+    white-space: nowrap;
+    animation: moveLeft 10s linear infinite;
+}
+
+.wish-bullet.wish {
+    background-color: rgba(255, 223, 186, 0.8);
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.wish-bullet.fulfill {
+    background-color: rgba(186, 255, 201, 0.8);
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@keyframes moveLeft {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 100%;
+    }
+}
